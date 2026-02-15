@@ -53,6 +53,7 @@ def validate_form(e):
         display(f' INVALID Username, please try again! ', target='output')
 
     if pval == True and nval == True:    #if both are correct 
-        display(f' Account Created! ', target='output2')
+        display(f' Account Created! ', target='output')
 
     
+
